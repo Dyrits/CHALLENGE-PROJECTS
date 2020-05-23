@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website Style Guide</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>My Website Style Guide</h1>
+  </header>
+  <hr>
+  <main>
+    <article class="container" id="colors">
+      <section id="rgb-generator">
+        <h2>Random RGB/Brick Generator</h2>
+        <button id="btn-ajouter" onclick="addBrick()">+</button>
+        <div id="stack"></div>
+      </section>
+      <section id="selection-colors">
+        <h2>Selection of colors</h2>
+        <div id="evolutive-colors">
+          <div>
+            <h3>#000 to #AAA</h3>
+            <div id="zzz-aaa"></div>
+          </div>
+          <div>
+            <h3>#AAA to #FFF</h3>
+            <div id="aaa-fff"></div>
+          </div>
+          <div>
+            <h3>#F00 to #FAA</h3>
+            <div id="fzz-azz"></div>
+          </div>
+          <div>
+            <h3>#0F0 to #AFA</h3>
+            <div id="zfz-afa"></div>
+          </div>
+          <div>
+            <h3>#00F to #AAF</h3>
+            <div id="zzf-aaf"></div>
+          </div>
+          <div>
+            <h3>#FF0 to #FFA</h3>
+            <div id="ffz-ffa"></div>
+          </div>
+          <div>
+            <h3>#0FF to #AFF</h3>
+            <div id="zff-aff"></div>
+          </div>
+          <div>
+            <h3>#F0F to #FAF</h3>
+            <div id="fzf-faf"></div>
+          </div>
+          <div>
+            <h3>#50F to #505</h3>
+            <div id="vzf-vzv"></div>
+          </div>
+          <div>
+            <h3>#0FFFF0 to #0AAAA0</h3>
+            <div id="zffffz-zaaaaz"></div>
+          </div>
+          <div>
+            <h3>#F0AA0F to #A0AA0A</h3>
+            <div id="fzaazf-azaaza"></div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <hr>
+    <article class="container" id="fonts">
+      <section>
+        <h2>Selection of fonts</h2>
+        <div id="selection-fonts">
+          <div id="oswald">
+            <h3>Oswald</h3>
+            <p id="oswald-200">This is an example of Oswald Extra-light 200.</p>
+            <p id="oswald-400">This is an example of Oswald Regular 400.</p>
+            <p id="oswald-700">This is an example of Oswald Bold 700.</p>
+          </div>
+          <div id="cabin-sketch">
+            <h3>Cabin Sketch</h3>
+            <p id="cabin-sketch-400">This is an example of Cabin Sketch Regular 400.</p>
+            <p id="cabin-sketch-700">This is an example of Cabin Sketch Bold 700.</p>
+          </div>
+          <div id="press-start-2p">
+            <h3>Press Start 2P</h3>
+            <p>This is an example of Press Start 2P Regular 400.</p>
+          </div>
+        </div>
+      </section>
+    </article>
+    <hr>
+    <article class="container" id="text-styles">
+      <section>
+        <h2>Examples of header styles</h2>
+        <div id="headers-styles">
+          <div>
+            <p id="h1">I am a fake H1.</p>
+            <p class="css-styles">
+              font-family: 'Oswald', sans-serif<br>
+              font-size: 32px<br>
+              text-transform: uppercase<br>
+              padding: 15px<br>
+              margin: 15px<br>
+              text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.7), 0px 10px 16px rgba(255, 255, 255, 0.5), 0px 20px 26px rgba(0, 0, 0, 0.3)
+            </p>
+          </div>
+          <div>
+            <p id="h2">I am a fake H2.</p>
+            <p class="css-styles">
+              font-family: 'Oswald', sans-serif<br>
+              font-size: 26px<br>
+              text-transform: capitalize<br>
+              padding: 10px<br>
+              margin: 10px<br>
+              text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.7), 0px 6px 10px rgba(255, 255, 255, 0.5), 0px 12px 14px rgba(0, 0, 0, 0.3)
+            </p>
+          </div>
+          <div>
+            <p id="h3">I am a fake H3.</p>
+            <p class="css-styles">
+              font-family: 'Oswald', sans-serif<br>
+              font-size: 20px<br>
+              text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.7), 0px 2px 4px rgba(255, 255, 255, 0.5), 0px 4px 6px rgba(0, 0, 0, 0.3)
+            </p>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build Your Own Cheat Sheet: CSS Selectors</title>
+  <link rel="stylesheet" href="styles/style.css" type="text/css">
+  <script src="https://kit.fontawesome.com/7b3b0349cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <header>
+      <a href="#"><h1><i class="fab fa-css3"></i> CSS Selectors</h1></a>
+      <p>CSS selectors define the elements to which a set of CSS rules apply.</p>
+    </header>
+    <ul>
+      <a href="#simple-selectors"><li>Simple selectors</li></a>
+      <a href="#combinators"><li>Combinators</li></a>
+      <a href="#pseudo-classes"><li>Pseudo-classes</li></a>
+      <a href="#pseudo-elements"><li>Pseudo-elements</li></a>
+      <a href="#specification"><li>Specifications</li></a>
+    </ul>
+  </nav>
+  <main>
+    <section id="simple-selectors">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4"><h2 class="title">Simple selectors</h2></th>
+          </tr>
+          <tr>
+            <th>Selector type</th>
+            <th>Description</th>
+            <th>Syntax</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/type_selectors">Type selector</a></h3></td>
+            <td>Selects all elements that match the given node name</td>
+            <td><code>eltname</code></td>
+            <td><code>input</code> will match any <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input"><code>&lt;input&gt;</code></a> element.</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/class_selectors">Class selector</a></h3></td>
+            <td>Selects all elements that have the given class attribute.</td>
+            <td><code>.classname</code></td>
+            <td><code>.index</code> will match any element that has a class of "index".</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/id_selectors">ID Selector</a></h3></td>
+            <td>Selects an element based on the value of its id attribute. There should be only one element with a given ID in a
+            document.</td>
+            <td><code>#idname</code><br></td>
+            <td><code>#toc</code> will match the element that has the ID "toc".</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/universal_selectors">Universal selector</a></h3></td>
+            <td>Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.</td>
+            <td><code>* ns|* *|</code>*<br></td>
+            <td><code>*</code> will match all the elements of the document.</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/attribute_selectors">Attribute selector</a></h3></td>
+            <td><p>Selects elements based on the value of the given attribute.<br></td>
+            <td><code>[attr] [attr=value] [attr~=value] [attr|=value] [attr^=value] [attr$=value] [attr*=value]</code><br></td>
+            <td><code>[autoplay]</code> will match all elements that have the autoplay attribute set (to any value).</p></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="combinators">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4"><h2 class="title">Combinators</h2></th>
+          </tr>
+          <tr>
+            <th>Selector type</th>
+            <th>Description</th>
+            <th>Syntax</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/adjacent_sibling_combinator">Adjacent sibling combinator</a></h3></td>
+            <td>The + combinator selects adjacent siblings. This means that the second element directly follows the first, and both
+            share the same parent.</td>
+            <td><code>A + B</code></td>
+            <td><code>h2 + p</code> will match all <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a> elements that directly follow an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"><code>&lt;h2&gt;</code></a>.</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/general_sibling_combinator">General sibling combinator</a></h3></td>
+            <td>The ~ combinator selects siblings. This means that the second element follows the first (though not necessarily
+            immediately), and both share the same parent.</td>
+            <td><code>A ~ B</code></td>
+            <td><code>p ~ span</code> will match all <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span"><code>&lt;span&gt;</code></a> elements that follow a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a>.</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/child_combinator">Child combinator</a></h3></td>
+            <td>The > combinator selects nodes that are direct children of the first element.</td>
+            <td><code>A > B</code></td>
+            <td><code>ul > li</code> will match all <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li"><code>&lt;li&gt;</code></a> elements that are nested directly inside a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul"><code>&lt;ul&gt;</code></a> element.</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/descendant_combinator">Descendant combinator</a></h3></td>
+            <td>The (space) combinator selects nodes that are descendants of the first element.</td>
+            <td><code>A B</code></td>
+            <td><code>div span</code> will match all <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span"><code>&lt;span&gt;</code></a> elements that are inside a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div"><code>&lt;div&gt;</code></a> element.</td>
+          </tr>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/column_combinator">Column combinator</a></h3></td>
+            <td>The || combinator selects nodes which belong to a column.</td>
+            <td><code>A || B</code></td>
+            <td><code>col || td</code> will match all <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td"><code>&lt;td&gt;</code></a> elements that belong to the scope of the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col"><code>&lt;col&gt;</code></a>.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="pseudo-classes">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">
+              <h2 class="title">Pseudo-classes</h2>
+            </th>
+          </tr>
+          <tr>
+            <th>Selector type</th>
+            <th colspan="2">Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><h3><a href="https://devdocs.io/css/pseudo-classes">Pseudo-classes</a></h3></td>
+            <td colspan="2">Pseudo-classes allow the selection of elements based on state information that is not contained in the document tree.</td>
+            <td><code>a:visited</code> will match all <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span"><code>&lt;span&gt;</code></a> elements that
+            follow a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><code>&lt;a&gt;</code></a> elements that have been visited by the user.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="pseudo-elements">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">
+              <h2 class="title">Pseudo-elements</h2>
+            </th>
+          </tr>
+          <tr>
+            <th>Selector type</th>
+            <th colspan="2">Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <h3><a href="https://devdocs.io/css/pseudo-elements">Pseudo-elements</a></h3>
+            </td>
+            <td colspan="2">Pseudo-elements represent entities that are not included in HTML.</td>
+            <td><code>p::first-line </code> will match the first line of all <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p"><code>&lt;p&gt;</code></a> elements.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="specification">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">
+              <h2 class="title">Specifications</h2>
+            </th>
+          </tr>
+          <tr>
+            <th colspan="4">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4">This section needs more information.</td>
+          </tr>
+        </tbody>
+      </table>
+      <table id="specification-table">
+        <thead>
+          <tr>
+            <th>Specification</th>
+            <th>Status</th>
+            <th>Comment</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://drafts.csswg.org/selectors-4/">Selectors Level 4</a></td>
+            <td>Working Draft</td>
+            <td>Added the <code>||</code> column combinator</td>
+          </tr>
+          <tr>
+            <td><a href="https://drafts.csswg.org/selectors-3/">Selectors Level 3</a></td>
+            <td>Recommendation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td><a href="https://www.w3.org/TR/CSS2/selector.html">CSS Level 2 (Revision 1)</a></td>
+            <td>Recommendation</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td><a href="https://www.w3.org/TR/CSS1/">CSS Level 1</a></td>
+            <td>Recommendation</td>
+            <td>Initial definition.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <h3>This page has been made by Dylan J. Gerrits as a [code]cademy practice project using https://devdocs.io/.</h3>
+  </footer>
+</body>
+</html>

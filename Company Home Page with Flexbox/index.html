@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-Drums</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li>
+          <h1><i class="fas fa-sliders-h"></i><br>e-Drums</h1>
+        </li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="90" class="key">
+        <kbd>Z</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="69" class="key">
+        <kbd>E</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="82" class="key">
+        <kbd>R</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="32" class="key">
+        <kbd>SPACE</kbd>
+        <span class="sound">boom</span>
+      </div>
+      </div>
+      <div data-key="73" class="key">
+        <kbd>I</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="79" class="key">
+        <kbd>O</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="80" class="key">
+        <kbd>P</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </section>
+
+    <aside>
+      <audio data-key="65"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/clap.wav?raw=true"></audio>
+      <audio data-key="90"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/hihat.wav?raw=true"></audio>
+      <audio data-key="69"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/kick.wav?raw=true"></audio>
+      <audio data-key="82"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/openhat.wav?raw=true"></audio>
+      <audio data-key="32"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/boom.wav?raw=true"></audio>
+      <audio data-key="85"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/ride.wav?raw=true"></audio>
+      <audio data-key="73"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/snare.wav?raw=true"></audio>
+      <audio data-key="79"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/tom.wav?raw=true"></audio>
+      <audio data-key="80"
+        src="https://github.com/Dyrits/JS-JS30/blob/dyrits-solutions/01%20-%20JavaScript%20Drum%20Kit/sounds/tink.wav?raw=true"></audio>
+    </aside>
+  </header>
+
+  <main>
+    <section id="about-us">
+      <h2><i class="fas fa-sliders-h"></i><br>About Us</h2>
+      <p>Created in 2020 by a team of passionate musicians, e-Drums is your band's best friend. We provide high-quality
+        drums kits for professional musicians.</p>
+    </section>
+    <section id="products">
+      <h2><i class="fas fa-drum"></i><br>Products</h2>
+      <p>You'll find some sample of our products here. Visit our store to find out more!</p>
+      <div id="list-products">
+        <img src="https://images.musicstore.de/teaser/0960/misc/contentseiten/2019/DRU/DRU_Roland_TD-17KV.jpg"
+          alt="Roland">
+        <img src="https://images.musicstore.de/teaser/0960/misc/contentseiten/2016/DRU/DRU_Fame-DD-Lite.jpg" alt="Fame">
+        <img
+          src="https://images.musicstore.de/teaser/0960/misc/contentseiten/2020/DRU/DRU_Tama_Superstar-Classic-Exotic.jpg"
+          alt="Tama SuperStar">
+        <img src="https://images.musicstore.de/teaser/0960/misc/contentseiten/2020/DRU/DRU_Pearl-Export-EXX725BR.jpg"
+          alt="Pearl">
+        <img
+          src="https://images.musicstore.de/teaser/0960/misc/contentseiten/2019/DRU/DRU_Tama_Starclassic-Walnut-Birch_2.jpg"
+          alt="Tama StarClassic">
+        <img src="https://images.musicstore.de/teaser/0960/misc/contentseiten/2016/DRU/DRU_Crash-Force-Five.jpg"
+          alt="Crash">
+      </div>
+    </section>
+    <section class="empty"></section>
+    <section id="team">
+      <h2><i class="fas fa-podcast"></i><br>Team</h2>
+      <p>We are a team of 3 passionates.</p>
+      <div id="team-members">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1522536421511-14c9073df899?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            alt="">
+          <figcaption>Jeff</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1471565661762-b9dfae862dbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+            alt="">
+          <figcaption>Stefan</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+            alt="">
+          <figcaption>Martin</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="empty"></section>
+    <section id="contact">
+      <h2><i class="far fa-address-book"></i><br>Contact</h2>
+      <div>
+        <p><i class="fas fa-map-marker-alt"></i></p>
+        <p>1439 Blair Court</p>
+        <p>Salisbury, 65281</p>
+        <p>Missouri</p>
+      </div>
+      <div>
+        <i class="fas fa-phone"></i>
+        <p>660-388-7748</p>
+      </div>
+    </section>
+    <footer>
+      <p>The images used to made this fake company page have been taken from <a href="https://unsplash.com/">Unsplash</a>
+        and <a href="https://www.musicstore.com/">Music Store</a>.</p>
+    </footer>
+  </main>
+
+<script src="https://kit.fontawesome.com/7b3b0349cd.js" crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>

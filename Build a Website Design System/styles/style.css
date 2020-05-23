@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Oswald:wght@200;400;700&family=Press+Start+2P&display=swap');
+
+body {font-family: 'Cabin Sketch', cursive;}
+
+header h1 {
+  font-size: 42px;
+  text-align: center;
+  text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.7), 0px 10px 16px rgba(255, 255, 255, 0.5), 0px 20px 26px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+  color: rgba(0,0,0,1);
+  border-top: 1px solid rgba(0,0,0,0.5);
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
+.container {
+  margin: 10px;
+}
+
+#colors {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#colors section {display: inline-block;}
+
+#rgb-generator {
+  margin: 0 auto; 
+  width: 75%;
+  min-width: 250px ;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+#rgb-generator #btn-ajouter {
+  display: block;
+  font-family: 'Indie Flower', cursive;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 25px auto;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #777777;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px #AAAAAA;
+}
+
+#rgb-generator #btn-ajouter:hover{background-color: #555555}
+
+#rgb-generator #btn-ajouter:active {
+  background-color: #444444;
+  box-shadow: 0 4px #888888;
+  transform: translateY(4px);
+}
+
+#rgb-generator #stack {
+  vertical-align: top;
+  width: 160px;
+  margin: 0 auto;
+  height: 500px;
+  background: #FFFFFF;
+  display: inline-block;
+  border : 1px solid grey;
+  border-radius: 10px;
+}
+
+#rgb-generator .brick {
+  font-family: 'Oswald', sans-serif;
+  width: 160px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+  font-weight: bold;
+}
+
+section>h2 {text-align: center;}
+
+#evolutive-colors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 200px));
+  justify-content: center;
+  gap: 10px;
+}
+
+#evolutive-colors>div {text-align: center;}
+
+#evolutive-colors div>div {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 5px;
+  transition: background 5s;
+}
+
+#evolutive-colors #zzz-aaa {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+#evolutive-colors #aaa-fff {
+  background-color: #AAA;
+  border: 1px solid #AAA;
+}
+
+#evolutive-colors #fzz-azz {
+  background-color: #F00;
+  border: 1px solid #F00;
+}
+
+#evolutive-colors #zfz-afa {
+  background-color: #0F0;
+  border: 1px solid #0F0;
+}
+
+#evolutive-colors #zzf-aaf {
+  background-color: #00F;
+  border: 1px solid #00F;
+}
+
+#evolutive-colors #ffz-ffa {
+  background-color: #FF0;
+  border: 1px solid #FF0;
+}
+
+#evolutive-colors #zff-aff {
+  background-color: #0FF;
+  border: 1px solid #0FF;
+}
+
+#evolutive-colors #fzf-faf {
+  background-color: #F0F;
+  border: 1px solid #F0F;
+}
+
+#evolutive-colors #vzf-vzv {
+  background-color: #50F;
+  border: 1px solid #50F;
+}
+
+#evolutive-colors #zffffz-zaaaaz {
+  background-color: #0FFFF0;
+  border: 1px solid #0FFFF0;
+}
+
+#evolutive-colors #fzaazf-azaaza {
+  background-color: #F0aa0F;
+  border: 1px solid #F0aa0F;
+}
+
+#evolutive-colors #zzz-aaa:hover {background-color: #AAA;}
+#evolutive-colors #aaa-fff:hover {background-color: #FFF;}
+#evolutive-colors #fzz-azz:hover {background-color: #FAA;}
+#evolutive-colors #zfz-afa:hover {background-color: #AFA;}
+#evolutive-colors #zzf-aaf:hover {background-color: #AAF;}
+#evolutive-colors #ffz-ffa:hover {background-color: #FFA;}
+#evolutive-colors #zff-aff:hover {background-color: #AFF;}
+#evolutive-colors #fzf-faf:hover {background-color: #FAF;}
+#evolutive-colors #vzf-vzv:hover {background-color: #505;}
+#evolutive-colors #zffffz-zaaaaz:hover {background-color: #0AAAA0;}
+#evolutive-colors #fzaazf-azaaza:hover {background-color: #A0AA0A;}
+
+
+#selection-fonts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+}
+
+#selection-fonts>div {
+  display: inline-block;
+  width: 95%;
+}
+
+#selection-fonts #oswald {font-family: 'Oswald', sans-serif;}
+#selection-fonts #oswald #oswald-200 {font-weight: 200;}
+#selection-fonts #oswald #oswald-400 {font-weight: 400;}
+#selection-fonts #oswald #oswald-700 {font-weight: 700;}
+
+#selection-fonts #cabin-sketch {font-family: 'Cabin Sketch', cursive;}
+#selection-fonts #cabin-sketch #cabin-sketch-400 {font-weight: 400;}
+#selection-fonts #cabin-sketch #cabin-sketch-700 {font-weight: 700;}
+
+#selection-fonts #press-start-2p {font-family: 'Press Start 2P', cursive;}
+
+#headers-styles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-items: center;
+  gap: 10px;
+}
+
+#headers-styles>div {
+  display: inline-block;
+  width: 95%;
+}
+
+#headers-styles #h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding: 15px;
+  margin: 15px;
+  text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.7), 0px 10px 16px rgba(255, 255, 255, 0.5), 0px 20px 26px rgba(0, 0, 0, 0.3);
+}
+
+#headers-styles #h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  text-transform: capitalize;
+  padding: 10px;
+  margin: 10px;
+  text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.7), 0px 6px 10px rgba(255, 255, 255, 0.5), 0px 12px 14px rgba(0, 0, 0, 0.3);
+}
+
+#headers-styles #h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.7), 0px 2px 4px rgba(255, 255, 255, 0.5), 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.css-styles {font-family: 'Oswald', sans-serif;}
