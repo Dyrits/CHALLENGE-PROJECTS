@@ -1,5 +1,7 @@
 # World Populations SQL Practice
 
+## More about this project
+
 ### Related course
 [CODE]CADEMY PRO | CHALLENGE PROJECTS
 
