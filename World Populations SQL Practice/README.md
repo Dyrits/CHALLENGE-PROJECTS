@@ -1,5 +1,9 @@
-## [CODE]CADEMY PRO | Challenge Projects >  World Populations SQL Practice
-### Description of the project by [code]cademy
+# World Populations SQL Practice
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > SQL | Data Science | Web Development
 
 #### Overview
@@ -8,6 +12,17 @@ This project is slightly different than others you have encountered thus far on 
 #### Project Goals
 You’ll work with a dataset of world population by country data from recent years. You’ll write queries to retrieve interesting data and answer a set of specific questions.
   
-### About this project
-This project (World Populations SQL Practice) is a *SQL | Data Science | Web Development* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/world-populations-sql-practice
+### Technologies | Libraries | Frameworks | Tools  
+- SQL
+
+### Details | Comments
+- This project has been made from scratch following specific instructions. 
+
+### Status
+Completed
+
+#### Last update
+23/05/2020
+
+#### Last update (README.md)
+27/05/2020
