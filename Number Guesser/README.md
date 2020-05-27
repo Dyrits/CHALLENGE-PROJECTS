@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects >  Number Guesser
-### Description of the project by [code]cademy
+# Number Guesser
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > JavaScript | Web Development
 
 #### Overview
@@ -8,16 +14,23 @@ This project is slightly different than others you have encountered thus far on 
 #### Project Goals
 In this project, you’ll write JavaScript functions to power a small guessing game. Your code will run in the browser instead of just the terminal, but you have an output section to help you test your functions and show you if you have syntax errors.
   
-### About this project
-This project (Number Guesser) is a *JavaScript | Web Development* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/number-guesser-independent-practice
+### Technologies | Libraries | Frameworks | Tools  
+- HTML5
+- CSS3
+- JavaScript
 
-#### Details | Comments
-I made some improvements to the project: I made it impossible to type manually the number and to go beyond the number 9 with the button.
-
-#### Note
-This project has not been made from scratch. A premade template from CODECADEMY PRO has been used.
+### Details | Comments
+- This project has been made following specific instructions. A few premade elements have been provided by the related course.
 
 #### CodePen
 You can find this project on CodePen.  
 URL: https://codepen.io/Dyrits/full/OJyVyRj
+
+### Status
+Completed
+
+#### Last update
+12/04/2020
+
+#### Last update (README.md)
+27/05/2020
