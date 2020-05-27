@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects >  Mysterious Organism
-### Description of the project by [code]cademy
+# Mysterious Organism
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > JavaScript | Programming
 
 #### Overview
@@ -10,6 +16,17 @@ Context: You’re part of a research team that has found a new mysterious organi
 
 As you progress through the steps, use the terminal and `console.log()` statements to check the output of your loops and functions. 
   
-### About this project
-This project (Mysterious Organism) is a *JavaScript | Programming* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/mysterious-organism
+### Technologies | Libraries | Frameworks | Tools  
+- JavaScript
+
+### Details | Comments
+- This project has been made following specific instructions. A few premade elements have been provided by the related course.
+
+### Status
+Completed
+
+#### Last update
+19/05/2020
+
+#### Last update (README.md)
+27/05/2020
