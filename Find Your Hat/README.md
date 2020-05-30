@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects >  Find Your Hat
-### Description of the project by [code]cademy
+# Find Your Hat
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > JavaScript | Web Development | Programming
 
 #### Overview
@@ -8,6 +14,17 @@ This project is slightly different than others you have encountered thus far on 
 #### Project Goals
 In this project, you’ll be building an interactive terminal game. The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field.
   
-### About this project
-This project (Find Your Hat) is a *JavaScript | Web Development | Programming* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.  
-URL of the project: https://www.codecademy.com/practice/projects/find-your-hat
+### Technologies | Libraries | Frameworks | Tools  
+- JavaScript
+
+### Details | Comments
+- This project has been made following specific instructions. A few premade elements have been provided by the related course.
+
+### Status
+Completed
+
+#### Last update
+17/05/2020
+
+#### Last update (README.md)
+27/05/2020
