@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects >  Credit Card Checker
-### Description of the project by [code]cademy
+# Credit Card Checker
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > JavaScript | programming
 
 #### Overview
@@ -10,6 +16,17 @@ Context: The company that you work for suspects that credit card distributors ha
 
 As you progress through the steps, use the terminal and `console.log()` statements to check the output of your loops and functions. 
   
-### About this project
-This project (Credit Card Checker) is a *JavaScript | Programming* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/credit-card-checker
+### Technologies | Libraries | Frameworks | Tools  
+- JavaScript
+
+### Details | Comments
+- This project has been made following specific instructions. A few premade elements have been provided by the related course.
+
+### Status
+Completed
+
+#### Last update
+03/05/2020
+
+#### Last update (README.md)
+27/05/2020
