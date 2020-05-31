@@ -21,6 +21,7 @@ You report directly to the Head of Product, a person named Mr. Cloudy, and he ha
 
 ### Details | Comments
 - This project has been made following specific instructions. A few premade elements have been provided by the related course.  
+
 This project has been made importing `re` in order to be able to select easily the whole word without having to strip the punctuation everytime.
 
 ### Status
