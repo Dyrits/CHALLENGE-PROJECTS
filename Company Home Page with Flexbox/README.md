@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects >  Company Home Page with Flexbox
-### Description of the project by [code]cademy
+# Company Home Page with Flexbox
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > Flexbox | Web Development
 
 #### Overview
@@ -8,10 +14,24 @@
 #### Project Goals
 In this project, you’ll be using flexbox to design and build the layout for a company’s homepage. You can choose to build a new homepage for an existing company or imagine your own dream company! ​
   
-### About this project
-This project (Company Home Page with Flexbox) is a *Flexbox | Web Development* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/company-page-with-flexbox
+### Technologies | Libraries | Frameworks | Tools  
+- HTML  
+- CSS  
+- Sass  
+- JavaScript
+
+### Details | Comments
+- This project has been freely made from scratch following global instructions.
 
 #### CodePen
 You can find this project on CodePen.  
 URL: https://codepen.io/Dyrits/full/pojVvpE
+
+### Status
+Completed
+
+#### Last update
+09/05/2020
+
+#### Last update (README.md)
+31/05/2020
