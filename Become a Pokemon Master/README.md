@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects > Become a Pokémon Master
-### Description of the project by [code]cademy
+# Become a Pokémon Master
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > Python | Data Science | Programming
 
 #### Overview
@@ -8,9 +14,17 @@ This project is slightly different than others you have encountered thus far on 
 #### Project Goals
 In this project, you will be using Python Classes to create a game system similar to the popular game series Pokémon. If you’re unfamiliar with Pokémon, it is a game where creatures (Pokémon) battle against each other. Every Pokémon has statistics associated with it like health, level, type, and a name. In this project we’ll make several classes that interact with each other so you can create your own Pokémon battles!
   
-### About this project
-This project (Become a Pokémon Master) is a *Python | Data Science | Programming challenge* project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/become-a-pokemon-master
+### Technologies | Libraries | Frameworks | Tools  
+- Python  
 
-#### Details | Comments
-I had already made this kind of project in the past. A more advanced RPG Batlle Script can be find on my GitHub : https://github.com/Dyrits/PYTHON-UY-TCP3C-RPGBS
+### Details | Comments
+- This project has been made from scratch following specific instructions. 
+
+### Status
+Completed
+
+#### Last update
+14/04/2020
+
+#### Last update (README.md)
+31/05/2020

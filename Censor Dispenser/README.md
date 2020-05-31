@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects >  Build Your Own Cheat Sheet
-### Description of the project by [code]cademy
+# Censor Dispenser
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > Python | Data Science | Programming
 
 #### Overview
@@ -8,11 +14,20 @@ This project is slightly different than others you have encountered thus far on 
 #### Project Goals
 You’ve recently gotten a job working in the IT department at one of Silicon Valley’s hottest new startups, *AirWeb*. The company is developing a state-of-the-art artificial intelligence engine designed to help provide a new perspective on the world’s problems. Interestingly, very few people know the details of *AirWeb*‘s work and the company is very secretive about its technology, even to its own investors.
 
-You report directly to the Head of Product, a person named Mr. Cloudy, and he has a very important task for you. You see, every month, the head researchers down in the lab send an email to the board of investors to tell them about the status of the project. Cloudy wants you to intercept these emails and censor any “proprietary information” included in them.
+You report directly to the Head of Product, a person named Mr. Cloudy, and he has a very important task for you. You see, every month, the head researchers down in the lab send an email to the board of investors to tell them about the status of the project. Cloudy wants you to intercept these emails and censor any “proprietary information” included in them. ​
   
-### About this project
-This project (Censor Dispenser) is a *Python | Data Science | Programming challenge* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/censor-dispenser 
+### Technologies | Libraries | Frameworks | Tools  
+- Python
 
-#### Details | Comments
-It has been made importing `re` in order to be able to select easily the whole word without having to strip the punctuation everytime.
+### Details | Comments
+- This project has been made following specific instructions. A few premade elements have been provided by the related course. 
+This project has been made importing `re` in order to be able to select easily the whole word without having to strip the punctuation everytime.
+
+### Status
+Completed
+
+#### Last update
+09/04/2020
+
+#### Last update (README.md)
+31/05/2020

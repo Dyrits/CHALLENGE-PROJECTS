@@ -1,5 +1,11 @@
-## [CODE]CADEMY PRO | Challenge Projects >  Censor Dispenser
-### Description of the project by [code]cademy
+# Build Your Own Cheat Sheet
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | CHALLENGE PROJECTS
+
+### Description of the project by [CODE]CADEMY PRO
 > HTML | CSS | Web Development
 
 #### Overview
@@ -8,13 +14,22 @@ This project is slightly different than others you have encountered thus far on 
 #### Project Goals
 In this project, you’ll be building your own reference cheat sheet to help you build more websites in the future! Although there are great places to learn HTML & CSS like Codecademy, the best reference for yourself is often your own notes and projects.  
   
-### About this project
-This project (Build Your Own Cheat Sheet) is a *HTML | CSS | Web Development* challenge project as part of the "Practice - Challenge Projects" on CODECADEMY PRO.
-URL of the project: https://www.codecademy.com/practice/projects/independent-project-html-documentation  
+### Technologies | Libraries | Frameworks | Tools  
+- HTML  
+- CSS  
 
-#### Details | Comments
-This version is made mostly with tables, using basic CSS. The grid system is also used for the navbar but not in a very efficient way. Nevertheless, the project will probably not be reworked but a similar project, yet quite different, has been made after this one (as part of the Responsive Web Design Certification on freeCodeCamp). 
+### Details | Comments
+- This project has been freely made from scratch following global instructions.
 
 #### CodePen
 You can find this project on CodePen.  
 URL: https://codepen.io/Dyrits/full/eYNqxYb
+
+### Status
+Completed
+
+#### Last update
+01/05/2020
+
+#### Last update (README.md)
+31/05/2020
