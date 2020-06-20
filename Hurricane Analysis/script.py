@@ -144,7 +144,7 @@ max_mortality_cane, max_mortality = find_highest_number_of(hurricanes_data, "Dea
 print(f"The deadliest hurricane is {max_mortality_cane} with {max_mortality} deaths.")
 
 
-# Function to categorize in 5 scales:
+# Categorize a specified category in 5 scales:
 def categorize_data_five_scales(hurricanes_dictionary, category, *scales):
     scales_dictionary = {0: [], 1: [], 2: [], 3: [], 4: [], 5: []}
     for hurricane_data in hurricanes_dictionary.values():
