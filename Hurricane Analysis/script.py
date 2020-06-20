@@ -124,89 +124,55 @@ def find_most_affected_area(areas_affected_list):
 
 # write your find most affected area function here:
 max_area, max_area_count = find_most_affected_area(areas_affected)
-
 print(f"The most affected area is {max_area} with {max_area_count} hurricanes.")
 
 
-# write your greatest number of deaths function here:
-def find_highest_number_of_deaths(hurricanes_dictionary):
-    highest_number_of_deaths = 0
-    deadliest_hurricane = str()
+# Find the highest value of a specified category:
+def find_highest_number_of(hurricanes_dictionary, category):
+    highest_number = 0
+    hurricane = str()
     for hurricane_name, hurricane_data in hurricanes_dictionary.items():
-        deaths_count = hurricane_data["Deaths"]
-        if deaths_count> highest_number_of_deaths:
-            highest_number_of_deaths = deaths_count
-            deadliest_hurricane = hurricane_name
-    return deadliest_hurricane, highest_number_of_deaths
+        category_count = hurricane_data[category]
+        if (isinstance(category_count, float) or isinstance(category_count, int)) and category_count > highest_number:
+            highest_number = category_count
+            hurricane = hurricane_name
+    return hurricane, highest_number
 
 
-max_mortality_cane, max_mortality = find_highest_number_of_deaths(hurricanes_data)
-
+# write your greatest number of deaths function here:
+max_mortality_cane, max_mortality = find_highest_number_of(hurricanes_data, "Deaths")
 print(f"The deadliest hurricane is {max_mortality_cane} with {max_mortality} deaths.")
 
 
-# write your categorize by mortality function here:
-def categorize_mortality(hurricanes_dictionary):
-    mortality_scale = {0: [], 1: [], 2: [], 3: [], 4: [], 5: []}
+# Function to categorize in 5 scales:
+def categorize_data_five_scales(hurricanes_dictionary, category, *scales):
+    scales_dictionary = {0: [], 1: [], 2: [], 3: [], 4: [], 5: []}
     for hurricane_data in hurricanes_dictionary.values():
-        deaths_count = hurricane_data["Deaths"]
-        if deaths_count > 10000:
-            mortality_scale[5].append(hurricane_data)
-        elif deaths_count > 1000:
-            mortality_scale[4].append(hurricane_data)
-        elif deaths_count > 500:
-            mortality_scale[3].append(hurricane_data)
-        elif deaths_count > 100:
-            mortality_scale[2].append(hurricane_data)
-        elif deaths_count > 0:
-            mortality_scale[1].append(hurricane_data)
-        else:
-            mortality_scale[0].append(hurricane_data)
-    return mortality_scale
+        category_count = hurricane_data[category]
+        if isinstance(category_count, float) or isinstance(category_count, int):
+            if category_count > scales[4]:
+                scales_dictionary[5].append(hurricane_data)
+            elif category_count > scales[3]:
+                scales_dictionary[4].append(hurricane_data)
+            elif category_count > scales[2]:
+                scales_dictionary[3].append(hurricane_data)
+            elif category_count > scales[1]:
+                scales_dictionary[2].append(hurricane_data)
+            elif category_count > scales[0]:
+                scales_dictionary[1].append(hurricane_data)
+            else:
+                scales_dictionary[0].append(hurricane_data)
+    return scales_dictionary
 
 
-hurricanes_by_mortality = categorize_mortality(hurricanes_data)
-
+# write your categorize by mortality function here:
+hurricanes_by_mortality = categorize_data_five_scales(hurricanes_data, "Deaths",
+                                                      0, 100, 500, 1000, 10000)
 
 # write your greatest damage function here:
-def find_highest_damages(hurricanes_dictionary):
-    highest_damages = 0
-    most_expensive_hurricane = str()
-    for hurricane_name, hurricane_data in hurricanes_dictionary.items():
-        amount_of_damages = hurricane_data["Damages"]
-        if not isinstance(amount_of_damages, float):
-            continue
-        if amount_of_damages > highest_damages:
-            highest_damages = amount_of_damages
-            most_expensive_hurricane = hurricane_name
-    return most_expensive_hurricane, highest_damages
-
-
-max_damage_cane, max_damage = find_highest_damages(hurricanes_data)
-
+max_damage_cane, max_damage = find_highest_number_of(hurricanes_data, "Damages")
 print(f"The most expensive hurricane is {max_damage_cane} with {max_damage}$ worth of damages.")
 
-
 # write your categorize by damage function here:
-def categorize_damages(hurricanes_dictionary):
-    damages_scale = {0: [], 1: [], 2: [], 3: [], 4: [], 5: []}
-    for hurricane_data in hurricanes_dictionary.values():
-        amount_of_damages = hurricane_data["Damages"]
-        if not isinstance(amount_of_damages, float):
-            continue
-        if amount_of_damages > 50000000000:
-            damages_scale[5].append(hurricane_data)
-        elif amount_of_damages > 10000000000:
-            damages_scale[4].append(hurricane_data)
-        elif amount_of_damages > 1000000000:
-            damages_scale[3].append(hurricane_data)
-        elif amount_of_damages > 100000000:
-            damages_scale[2].append(hurricane_data)
-        elif amount_of_damages > 0:
-            damages_scale[1].append(hurricane_data)
-        else:
-            damages_scale[0].append(hurricane_data)
-    return damages_scale
-
-
-hurricanes_by_damage = categorize_damages(hurricanes_data)
+hurricanes_by_damage = categorize_data_five_scales(hurricanes_data, "Damages",
+                                                   0, 100000000, 1000000000, 10000000000, 50000000000)
