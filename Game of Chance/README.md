@@ -2,7 +2,7 @@
 
 ## About this project
 
-### Related task
+### Related course
 [code]cademy / PRO | Challenge Projects
 > Python
 
