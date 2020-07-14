@@ -15,15 +15,15 @@ This project is slightly different than others you have encountered thus far on 
 
 You will work to write several functions that simulate games of chance. Each one of these functions will use a number of parameters, random number generation, conditionals, and return statements.
 
-### Main technology
+## Main technology
 - Python
 
-### Details | Comments
+## Details | Comments
 This project has been made from scratch following general instructions provided by the related course.
 
-### Status
+## Status
 Completed
 
-#### Last update
+### Last update
 14/07/2020  
 (README | 14/07/2020)
