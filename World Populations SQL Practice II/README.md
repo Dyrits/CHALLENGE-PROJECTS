@@ -5,7 +5,7 @@
 ### Related course
 [code]cademy / PRO | Challenge Projects
 > SQL
->
+
 ### Description (from [code]cademy / PRO)
 
 #### Overview
