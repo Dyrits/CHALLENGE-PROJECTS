@@ -16,6 +16,7 @@ In this project, you’ll be building a small Express.js web API to store and se
 
 ### Technologies
 - JavaScript  
+- Node  
 - Express
 
 ### Details | Comments
